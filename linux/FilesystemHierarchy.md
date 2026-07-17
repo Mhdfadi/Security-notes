@@ -2,6 +2,7 @@ Filesystem Hierarchy
 
 - in linux everthing is treated as a file whether its driver , software , external drives , hardware devices
   
+  
 Core directories
 - /→reps the root of the file system ; everything is inside of it
 - /home , /root→home directory of user , root user
