@@ -39,3 +39,18 @@ Level 4
 After logging inside inhere directory there were several files from it by trail and error method went through files and got the key from -file07
 cat ./'-file07'
 Key ⇒ 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
+
+Level 5
+----------------
+got logged in 
+there where many files in it inside it too
+so i had to find using filters like size and type since there is no file extension
+find ./ -size 1k -type f 
+but the size was 1033bytes 
+so i had to use 
+find ./ -size 1033c -type f
+here c denotes bytes (k - kb , m-mb , g-gb,
+then using cat displayed contents from it if the permission does not contain execution
+got key from maybehere07/'.file2'
+key ⇒ pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
+
