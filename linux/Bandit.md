@@ -54,3 +54,9 @@ then using cat displayed contents from it if the permission does not contain exe
 got key from maybehere07/'.file2'
 key ⇒ pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
 
+Level 6
+-----------------
+inorder to search the entire system we have to start from the root folder
+find / -size 33c -user bandit7 -group bandit6
+cat /var/lib/dpkg/info/bandit7.password
+and got key ⇒ Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3 
