@@ -60,3 +60,9 @@ inorder to search the entire system we have to start from the root folder
 find / -size 33c -user bandit7 -group bandit6
 cat /var/lib/dpkg/info/bandit7.password
 and got key ⇒ Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3 
+
+Level 7
+-----------------
+using cat and grep got the key 
+cat data.txt | grep millionth
+Key  ⇒ VR1ljMayciFxbnUokuQmJFw6QC9VKtub
