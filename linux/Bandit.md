@@ -66,3 +66,9 @@ Level 7
 using cat and grep got the key 
 cat data.txt | grep millionth
 Key  ⇒ VR1ljMayciFxbnUokuQmJFw6QC9VKtub
+
+Level 8
+-----------------
+by using sort and uniq by piping got the uniq text from the text file
+sort data.txt | uniq -u
+key ⇒ EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
