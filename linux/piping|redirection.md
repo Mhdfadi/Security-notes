@@ -18,4 +18,12 @@ if want to run two commands one after another we can use→&& , if its not takin
 
 exit status→every linux command returns an exit status (aka exit code) when it finishes ; inorder to check it echo $? , after running the command whose exit code is needed
 
+Other exit codes
+    0 - Success
+    1 - General error
+    2 - Misuse of shell builtins
+    126 - Command invoked cannot execute
+    127 - Command not found
+    128 - Invalid argument to exit
+
 why 0 considered success→in unix and linux it means no error
