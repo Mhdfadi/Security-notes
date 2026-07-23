@@ -72,3 +72,10 @@ Level 8
 by using sort and uniq by piping got the uniq text from the text file
 sort data.txt | uniq -u
 key ⇒ EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
+
+Level 9
+-----------------
+in this we have to find the key from a binary kinda files , so we only extracted the non binary parts from the text then using grep find in those lines who are in the same line as '='
+
+strings data.txt | grep '='
+key ⇒ B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
