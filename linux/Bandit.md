@@ -79,3 +79,10 @@ in this we have to find the key from a binary kinda files , so we only extracted
 
 strings data.txt | grep '='
 key ⇒ B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
+
+Level 10
+-----------------
+in this the key was enoded in base64 so we have decode it using 
+base64 -d data.txt
+
+key ⇒ pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
