@@ -86,3 +86,14 @@ in this the key was enoded in base64 so we have decode it using
 base64 -d data.txt
 
 key ⇒ pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
+
+Level 11
+-----------------
+in this we can de cipher the text (+13)
+so used tr command
+
+cat data.txt |tr 'a-z' 'n-az-m' | tr 'A-Z' 'N-ZA-M'
+or 
+cat data.txt |tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+key ⇒GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
