@@ -15,3 +15,7 @@ cd
     cd ..  (backward only as per str)or cd - (both sides)⇒ prev directory
     cd ~ ⇒ goes to home directory of the user
     cd / ⇒ goes to root directory
+
+cat
+inorder to view the file
+cat file.txt
