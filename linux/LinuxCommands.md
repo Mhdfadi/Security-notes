@@ -17,5 +17,9 @@ cd
     cd / ⇒ goes to root directory
 
 cat
-inorder to view the file
-cat file.txt
+    inorder to view the file
+    cat file.txt
+
+file
+    gives which type of file it is (jpeg image, ascii text ...)
+    file filname
