@@ -23,3 +23,8 @@ cat
 file
     gives which type of file it is (jpeg image, ascii text ...)
     file filname
+
+du
+    to show disk usage
+    du -sh folder ⇒ disk usage of a folder {s=summary,h=human readable}
+    du -ah ⇒ disk usage of all files and folders {a=all,h=human readable}
