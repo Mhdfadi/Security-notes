@@ -28,3 +28,10 @@ du
     to show disk usage
     du -sh folder ⇒ disk usage of a folder {s=summary,h=human readable}
     du -ah ⇒ disk usage of all files and folders {a=all,h=human readable}
+
+find
+    to find files ; can also use filters like type , size ,permission
+    find . -name "secret.txt"
+    find . -type f -size +1M  {f⇒file}
+    find . -perm 644
+    find . -type d -name "backup" {d⇒dir}
