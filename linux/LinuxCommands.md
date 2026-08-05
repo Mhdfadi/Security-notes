@@ -35,3 +35,8 @@ find
     find . -type f -size +1M  {f⇒file}
     find . -perm 644
     find . -type d -name "backup" {d⇒dir}
+
+grep
+    search text using patterns
+    grep "hello" file.txt
+    
