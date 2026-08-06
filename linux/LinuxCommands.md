@@ -39,4 +39,6 @@ find
 grep
     search text using patterns
     grep "hello" file.txt
+    grep -i hello file.txt {i⇒case insensitive}
+    grep -r "hello" directory/ {r⇒recursive search}
     
